@@ -1,8 +1,6 @@
 #pragma once
 #include <stddef.h>
-
-struct Observable;
-typedef void (*Observer)(struct Observable *subject);
+#include "observer.h"
 
 typedef struct Observable {
 	Observer *observers;

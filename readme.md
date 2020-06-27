@@ -12,7 +12,7 @@ ceedling test:observer
 ## How to use
 
 To add Observable property to certain object,
-1. place `Observable` type as the first field of the sturct.
+1. Place `Observable` type as the first field of your sturct.
 2. Call `Observable_init` to activate
 3. If some module wants to be notified, register appropriate handler with `Observable_attach` 
 4. Now that will make anything can be updated when `Observable_notify` called.

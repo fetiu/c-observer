@@ -1,7 +1,7 @@
 #include "observable.h"
 #include <stdlib.h>
 
-static int attach(struct Observable *subject, Observer callback)
+static int attach(Observable *subject, Observer callback)
 {
     Observer *slot = subject->observers;
     
@@ -17,7 +17,7 @@ static int attach(struct Observable *subject, Observer callback)
     return 0;
 }
 
-static void notify(struct Observable *subject)
+static void notify(Observable *subject)
 {
     Observer *observer = subject->observers;
     while (*observer) {
