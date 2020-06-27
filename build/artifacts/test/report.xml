@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_observable.c::test_Observable_attach_ShouldCallObserver_WhenNotify</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_observable.c::test_Observable_attach_ShouldFailAppend_WhenFull</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_observable.c::test_Observable_deinit_ShouldMemSetAll0</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>3</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>

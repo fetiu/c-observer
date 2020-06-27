@@ -1,0 +1,27 @@
+---
+:source:
+  :path: test
+  :file: test_observable.c
+:successes:
+- :test: test_Observable_attach_ShouldCallObserver_WhenNotify
+  :line: 23
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Observable_attach_ShouldFailAppend_WhenFull
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Observable_deinit_ShouldMemSetAll0
+  :line: 52
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'data received: 256'
+:time: 0.01744799967855215
